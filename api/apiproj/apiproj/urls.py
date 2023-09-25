@@ -16,23 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-# from rest_framework import routers
-# from quickstart import views
 from rest_framework.authtoken import views
 
-# from quickstart.views import CustomAuthToken
-
-
-# router = routers.DefaultRouter()
-# router.register(r'users', views.UserViewSet)
-# router.register(r'groups', views.GroupViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('quickstart.urls')),
-    path('api-token-auth/', views.obtain_auth_token, name='api-token-auth'),
-    
-    # path('', include(router.urls)),
-    # path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('api-token-auth/', views.obtain_auth_token, name='api-token-auth')
 ] 
 
