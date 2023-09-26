@@ -79,6 +79,14 @@ Use a postman application, run your application
 
 - follow the appropraite links
 
-- to get Authentication Token =/login/
-with the given the given details above
+- to get Authentication Token
+  https://authen.pythonanywhere.com/login/ - URL to login for and get TOKEN
+
+Test/Login Credentials
+Username: presh,
+Password: presh12345
+
+https://authen.pythonanywhere.com - URLs for the hosted GET 
+Authen.pythonanywhere.com/post/ - URL for a POST request
+Authen.pythonanywhere.com/getdetail/2 - URL for details [GET]
 
