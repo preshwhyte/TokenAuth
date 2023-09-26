@@ -86,6 +86,8 @@ Test/Login Credentials
 Username: presh,
 Password: presh12345
 
+watch video for hints on how to use POSTMAN - https://youtu.be/rjiHHDvs8mE?si=eZOeh8pAwmm6gNH9
+
 https://authen.pythonanywhere.com - URLs for the hosted GET 
 Authen.pythonanywhere.com/post/ - URL for a POST request
 Authen.pythonanywhere.com/getdetail/2 - URL for details [GET]
